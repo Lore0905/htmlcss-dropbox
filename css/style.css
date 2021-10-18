@@ -19,8 +19,6 @@ body{
 .container{
     width:80%;
     margin: auto;
-    /* test */
-    height: 200px;
 }
 /* END COMMONS */
 
@@ -34,9 +32,11 @@ nav > .col-right-header{
 nav > .col-left-header{
     width: 50%;
 }
+
 /* END HEADER */
 
 /* MAIN */
+/* SLIDER */
 /* dimensione colonna sinistra main */
 .col-right-header{
     width:35%
@@ -45,6 +45,46 @@ nav > .col-left-header{
 .col-right-left{
     width:65%;
 }
+/* END SLIDER */
+
+/* PIANI DROPBOX BUSINESS */
+.col-plane{
+    width: 30%;
+}
+/* centratura titlo h3 dentro col plane */
+.col-plane > h3{
+    text-align: center;
+}
+/* padding delle colonne */
+.col-plane-middle{
+    margin:0 5%;
+}
+/* contenitore dropbox planner */
+.container-dropbox-planner{
+    padding:20px 10px;
+}
+/* END PIANI DROPBOX BUSINESS */
+
+/* SECTION TEAM */
+
+/* grandezza colonne section team */
+.col-section-team-left{
+    width: 75%;
+}
+.col-section-team-right{
+    width: 25%;
+}
+
+/* END SECTION TEAM */
+
+/* PARTNER DROPBOX */
+
+/* dimensioni colonne partner dropbox */
+.col-partner-dropbox-img, .col-partner-dropbox-text{
+    width: 50%;
+}
+/* END PARTNER DROPBOX */
+
 /* END MAIN */
 
 /* FOOTER */
