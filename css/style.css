@@ -149,7 +149,7 @@ padding-top:50px;
     display: inline-block;
     font-weight: 100;
 }
-.container-dropbox-planner > h3{
+.container-dropbox-planner h3{
     font-size: 30px;
     padding-bottom: 20px;
 }
@@ -229,7 +229,29 @@ padding-top:50px;
     width: 25%;
 }
 /* title section team */
-
+.title-section-team > h4{
+    display: inline-block;
+    font-weight: 100;
+}
+.title-section-team{
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-bottom: 0px;
+    padding:7px 0;
+}
+/* spaziature */
+.team-section{
+    margin-top:50px;
+    margin-bottom:150px;
+}
+/* button section team */
+.button-section-team > a{
+    padding-right: 90px;
+    padding-left: 90px;
+}
+#contact-sales-dipartment{
+    margin-bottom:40px
+}
 /* END SECTION TEAM */
 
 /* PARTNER DROPBOX */
