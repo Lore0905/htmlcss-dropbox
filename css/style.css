@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    border:1px solid black;
 }
 body{
     font-family: 'Open Sans',sans-serif;
@@ -20,6 +19,20 @@ body{
     width:80%;
     margin: auto;
 }
+/* elimino l'elenco puntato */
+li{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+/* buttons */
+.button{
+   color:white;
+   background-color: #0161ff; 
+   padding: 4px 15px;
+}
+
 /* END COMMONS */
 
 /* HEADER */
@@ -32,6 +45,36 @@ nav > .col-right-header{
 nav > .col-left-header{
     width: 50%;
 }
+/* dispongo inline-block gli elementi dentro le ul */
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* allineamento a destrail testo */
+.col-left-header{
+    text-align: right;
+}
+/* link colore nero e margini*/
+nav a{
+    color: black;
+    margin-right: 30px;
+}
+/* margini elementi esterni al nav */
+.logo{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+nav .button{
+
+    margin-right: 20px;
+    margin-left: 30px;
+}
+/* padding e background */
+nav .col{
+    padding:20px 0;
+    background-color: white;
+}
+
 
 /* END HEADER */
 
@@ -84,6 +127,16 @@ nav > .col-left-header{
     width: 50%;
 }
 /* END PARTNER DROPBOX */
+
+/* DROPBOX BUSINESS */
+.col-dropbox-business{
+    width: 30%;
+}
+/* margine colonne */
+.col-middle-business{
+    margin:0 5%;
+}
+/* END DROPBOX BUSINESS */
 
 /* END MAIN */
 
