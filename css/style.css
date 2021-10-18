@@ -260,6 +260,24 @@ padding-top:50px;
 .col-partner-dropbox-img, .col-partner-dropbox-text{
     width: 50%;
 }
+.col-partner-dropbox-img > img{
+    width: 100%;
+}
+/* titolo h4 partner dropbox */
+.col-partner-dropbox-text > h4{
+    font-size: 30px;
+}
+.col-partner-dropbox-text{
+    padding: 70px;
+}
+.col-partner-dropbox-text > p{
+    padding:30px 0;
+}
+.col-partner-dropbox-text a{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 /* END PARTNER DROPBOX */
 
 /* DROPBOX BUSINESS */
