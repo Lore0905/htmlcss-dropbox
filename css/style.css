@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    border: 1px solid black;
+
 
 }
 body{
@@ -38,7 +38,10 @@ h2{
    padding: 6px 15px;
    display: inline-block;
 }
-
+.underline-blue{
+    text-decoration:underline blue;
+    color: blue;
+}
 /* END COMMONS */
 
 /* HEADER */
@@ -136,6 +139,35 @@ padding-top:50px;
 /* contenitore dropbox planner */
 .container-dropbox-planner{
     padding:20px 10px;
+}
+/* radio button */
+.circle{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    vertical-align:middle;
+}
+.circle-due{
+    margin-left:15px;
+}
+/* allineo le immagini e il testo */
+.characteristic-dropbox-planner li{
+    padding: 10px 10px 10px 20px;
+}
+.icon-dropbox-planner{
+    margin-left: -20px;
+}
+/* ridimensionamento button prova gratis */
+.button-prova-gratis{
+    width: 100%;
+    text-align: center;
+}
+/* bordo sulla scritta oppure */
+.border-oppure{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
 }
 /* END PIANI DROPBOX BUSINESS */
 
