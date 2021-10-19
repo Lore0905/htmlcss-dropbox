@@ -73,6 +73,7 @@ nav > .col-left-header{
 /* dispongo inline-block gli elementi dentro le ul */
 nav li{
     display: inline-block;
+    margin-right: 20px;
     vertical-align: middle;
 }
 /* allineamento a destrail testo */
@@ -82,11 +83,10 @@ nav li{
 /* link colore nero e margini*/
 nav a{
     color: black;
-    margin-right: 30px;
     line-height: 70px;
 }
 /* hover sottolineatura */
-nav a:hover{
+nav li:hover{
     border-bottom:1px solid black;
 }
 /* margini elementi esterni al nav */
@@ -113,6 +113,10 @@ nav .col{
 
 /* MAIN */
 /* SLIDER */
+.pictures{
+    position: relative;
+    bottom: -70px;
+}
 /* dimensione colonna sinistra main */
 .col-left-slider{
     width:35%
@@ -143,7 +147,6 @@ padding-top:50px;
 }
 .background-blue{
     background-color:#b4d0e7; 
-    height: 710px;
 }
 /* END SLIDER */
 
@@ -392,7 +395,6 @@ padding-top:50px;
 
 /* PORTA DROPBOX NELLA TUA AZIENDA */
 .porta-dropbox{
-    height: 350px;
     padding: 0;
     position: relative;
 }
