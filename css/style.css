@@ -30,6 +30,9 @@ a{
 h2{
     font-size: 40px;
 }
+.underline-grey{
+    text-decoration: underline grey;
+}
 
 /* buttons */
 .button{
@@ -283,11 +286,22 @@ padding-top:50px;
 /* DROPBOX BUSINESS */
 .col-dropbox-business{
     width: 30%;
+    padding-top: 60px;
 }
 /* margine colonne */
 .col-middle-business{
     margin:0 5%;
 }
+/* adatto le immagini alla grandezza delle colonne */
+.col-dropbox-business img{
+    width: 100%;
+}
+/* titolo col dropbox business */
+.col-dropbox-business > h6{
+    font-size:30px;
+    padding: 20px 0;
+}
+
 /* END DROPBOX BUSINESS */
 
 /* END MAIN */
