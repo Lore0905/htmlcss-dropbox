@@ -440,4 +440,40 @@ padding-top:50px;
 /* END MAIN */
 
 /* FOOTER */
+/* container footer */
+.container-footer{
+    background-color: black;
+    padding-bottom: 50px;
+}
+.col-footer{
+    width:calc(100% / 5);
+
+    /* test */
+    border:1px solid black;
+}
+.col-footer a, .col-footer h6{
+    color:white;
+}
+.col-footer h6{
+    font-size: 23px;
+    padding-bottom:20px;
+}
+.col-footer li{
+    margin-bottom: 10px;
+}
+/* hr footer */
+.hr-footer{
+    width: 8%;
+    height: 1px;
+    background-color: lightgrey;
+    margin-top:100px;
+    margin-bottom:40px;
+}
+.leanguages{
+    color: lightgrey;
+}
+footer .fa-sort-up{
+    vertical-align: middle;
+}
+
 /* END FOOTER */
