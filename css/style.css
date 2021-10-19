@@ -56,7 +56,12 @@ section{
 /* END COMMONS */
 
 /* HEADER */
+header{
+    height: 70px;
+    background-color:white;
 
+
+}
 /* dimensione colonna right*/
 nav > .col-right-header{
     width: 50%;
@@ -78,12 +83,18 @@ nav li{
 nav a{
     color: black;
     margin-right: 30px;
-    border-bottom: 1px solid grey;
+    line-height: 70px;
+}
+/* hover sottolineatura */
+nav a:hover{
+    border-bottom:1px solid black;
 }
 /* margini elementi esterni al nav */
 .logo{
     margin-right: 30px;
     margin-left: 20px;
+    position:relative;
+    top:7px;
 }
 nav .button{
 
@@ -92,8 +103,8 @@ nav .button{
 }
 /* padding e background */
 nav .col{
-    padding:20px 0;
     background-color: white;
+    line-height: 70px;
 }
 
 
@@ -393,7 +404,12 @@ padding-top:50px;
     color: #60082a;
 
 }
-
+.button-dropbox-business-nella-tua-azienda > a{
+    color:black;
+    background-color:white;
+    padding-left:50px;
+    padding-right:50px;
+}
 .col-left-porta-dropbox{
     width: 50%;
 
@@ -444,6 +460,7 @@ padding-top:50px;
 .container-footer{
     background-color: black;
     padding-bottom: 50px;
+    margin-top:150px;
 }
 .col-footer{
     width:calc(100% / 5);
